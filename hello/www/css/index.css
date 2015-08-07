@@ -1,0 +1,138 @@
+
+body {
+    background: darkgray;
+    
+}
+button, input {
+    border-radius: 10px;
+    
+}
+
+h3, h6 {
+    color: white;
+    font: comic Sans MS, Cursive, sans-serif;
+}
+#id {
+    display: none;
+}
+
+.list-group {
+    margin-top: 45px;
+}
+
+#password {
+    color: white;
+    background-color: rgba(194, 175, 243, 1.0);
+    -webkit-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    box-shadow: 3px 3px 8px 4px #888888;
+    margin-bottom: 10%;
+}
+
+#user_name {
+    color: white;
+    background-color: rgba(194, 175, 243, 1.0);
+    -webkit-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    box-shadow: 3px 3px 8px 4px #888888;
+    margin-bottom: 10%;
+}
+
+#login_button {
+    color: white;
+    background-color: rgba(194, 175, 243, 1.0);
+    -webkit-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    box-shadow: 3px 3px 8px 4px #888888;
+    margin: 5px;
+}
+
+#create_account_button {
+    color: white;
+    background-color: rgba(194, 175, 243, 1.0);
+    -webkit-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    -moz-box-shadow: 3px 3px 8px 4px rgba(0, 0, 0, 1.0);
+    box-shadow: 3px 3px 8px 4px #888888;
+    margin: 5px;
+}
+
+.form_container {
+    margin-left: 38%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 10px;
+    border: 10px solid rgb(255, 71, 103);
+    background: white;
+}
+
+.list_container > div > h1 {
+    color: #F3EDAF;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+#user_name::-webkit-input-placeholder {
+    color: #754b23;
+}
+
+#password::-webkit-input-placeholder {
+    color: #754b23;
+}
+
+legend {
+    color: #33A1DE;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-bottom: 1px solid #33A1DE;
+}
+.list_font {
+    text-align: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+.fa-list {
+    color: #F3EDAF;
+}
+#lastName {
+    margin-left: 5px;
+    font-size: 20px;
+}
+#firstName {
+    font-size: 20px;
+    margin-left: 9px;
+}
+span.glyphicon-check {
+    padding: 6px;
+    display: block;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.pastDue {
+    color: red;
+}
+.item_complete {
+    width: 100%;
+}
+.completed_item {
+    text-decoration: line-through;
+}
+#logout_button {
+    margin-left: 1%;
+    border-radius: 5px;
+    background: rgb(73, 73, 255);
+    color: white;
+}
+
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
+.modal-body {
+    max-height: calc(100vh - 210px);
+    overflow-y: auto;
+}
